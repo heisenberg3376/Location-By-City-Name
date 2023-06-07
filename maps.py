@@ -9,7 +9,7 @@ st.header("Select a City and I will show it's Location\n")
 df = pd.read_csv('Indian Cities Database.csv')
 df = df[['City','lat','lon']]
 
-city_name = st.selectbox('Select any movie',(df.City.values))
+city_name = st.selectbox('Select any City',(df.City.values))
 
 df = df[df['City']==city_name]
 
