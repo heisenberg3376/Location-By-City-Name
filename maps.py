@@ -13,9 +13,12 @@ city_name = st.selectbox('Select any City',(df.City.values))
 
 df = df[df['City']==city_name]
 
-m = folium.Map(location=[df.iloc[[0]].lat,df.iloc[[0]].lon],zoom_start=13)
+
+m = folium.Map(location=[df.iloc[[0]].lat,df.iloc[[0]].lon],zoom_start=12)
 folium.Marker([df.iloc[[0]].lat,df.iloc[[0]].lon],popup =df.iloc[[0]].City,tooltip=df.iloc[[0]].City).add_to(m)
 st_data = st_folium(m, width=725)
-st.write(st_data)
+
+
+
 
 
