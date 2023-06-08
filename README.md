@@ -1,15 +1,17 @@
 # Know the weather conditions and location of any Indian city just by selecting it's name
 
 
-We will be designing a webapp that shows the exact location of a selected city. The maps are very much interactive and flexible to use<br>
+We will be designing a webapp that shows the exact location of a selected city. The maps are very much interactive and flexible to use. This web app also shows some of the properties of selected city like (temperature, humidity, latitude, longitude, etc)<br>
 
 
+## API reference
 
+ - [openweathermap API](https://openweathermap.org/)
 
 
 ## Datasets
 
- - [Cities Dataset ](https://www.kaggle.com/datasets/parulpandey/indian-cities-database?select=Indian+Cities+Database.csv)
+ - [Indian Cities Dataset](https://www.kaggle.com/datasets/parulpandey/indian-cities-database?select=Indian+Cities+Database.csv)
 
 
 
