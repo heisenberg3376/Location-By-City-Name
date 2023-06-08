@@ -1,4 +1,4 @@
-# Location-By-City-Name
+# Know the weather conditions and location of any Indian city just by selecting it's name
 
 
 We will be designing a webapp that shows the exact location of a selected city. The maps are very much interactive and flexible to use<br>
