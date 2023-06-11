@@ -29,7 +29,7 @@ We will be designing a webapp that shows the exact location of a selected city. 
 
 ## Working Model
 
-https://heisenberg3376-location-by-city-name-maps-sbp3nd.streamlit.app/
+https://heisenberg3376-weather-conditions-and-location-of-i-maps-jebxtk.streamlit.app/
 
 
 ## Support
