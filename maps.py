@@ -68,6 +68,7 @@ with r:
     
     st.header(str("{0:.2f}".format((temp - 32)*(5/9)))+' °C')
     st.write('')
+    st.write('')
     st.header(f'{wind_speed} m/s')
     st.write('  ')
     st.write('  ')
