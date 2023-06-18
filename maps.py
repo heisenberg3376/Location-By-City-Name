@@ -6,7 +6,6 @@ import requests
 from io import BytesIO
 from PIL import Image
 
-st.set_page_config(page_title='My Resume',layout='wide')
 
 
 st.header("Select an Indian City and I will show it's Properties\n")
